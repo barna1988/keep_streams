@@ -1,4 +1,4 @@
-let USER_ID = 1;
+let USER_ID = "1";
 
 module.exports = {
     USER_ID
