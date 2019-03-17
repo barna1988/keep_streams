@@ -1,8 +1,8 @@
 const chai = require('chai');
-const expect = chai.expect();
+const expect = chai.expect;
 const app = require('../app');
 const config = require('./testConfig');
-const supertest = require('supertest');
+const request = require('supertest');
 
 describe('Streams Test', () => {
     it('Read notes as Stream', (done) => {
