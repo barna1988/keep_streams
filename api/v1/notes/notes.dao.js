@@ -6,7 +6,7 @@ const path = require('path');
 const fs = require('fs');
 const { Transform } = require('stream');
 const JSONStream = require('JSONStream');
-const notesFile = path.resolve(__dirname, '../../../', 'reference_notes.json');
+const notesFile = path.resolve(__dirname, '../../../', 'mock_notes.json');
 
 const notesTransform = new Transform({
     readableObjectMode: true,
