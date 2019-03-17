@@ -1,0 +1,19 @@
+[
+    {
+        "title" : "User 1: Title 1",
+        "text" : "User 1: Text 1",
+        "userId" : "1",
+        "state" : "In-progress"
+    },
+    {
+        "title" : "User 1: Title 2",
+        "text" : "User 1: Text 2",
+        "userId" : "1",
+        "state" : "Completed"
+    },
+    {
+        "title" : "User 2: Title 1",
+        "text" : "User 2: Text 1",
+        "userId" : "2"
+    }
+]

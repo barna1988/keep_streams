@@ -1,12 +1,11 @@
 {
   "name": "keep_Streams_Solution",
   "version": "1.0.0",
-  "description": "",
   "main": ".eslintrc.js",
   "scripts": {
     "start": "node ./streams/bin/www",
     "test": "mocha ./streams/test/*.spec.js",
-    "lint": "node_modules/.bin/eslint './streams/api/v1/**/*.js' --ignore-path .eslintignore"
+    "lint": "eslint './streams/api/v1/**/*.js' --ignore-path .eslintignore"
   },
   "repository": {
     "type": "git",
@@ -25,5 +24,6 @@
     "logger": "0.0.1",
     "mongoose": "^5.4.10",
     "stream-to-mongo-db": "^1.6.0"
-  }
+  },
+  "description": ""
 }
